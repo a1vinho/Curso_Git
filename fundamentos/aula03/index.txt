@@ -9,17 +9,17 @@ Processo de Trabalho do Git
 
         Comando:
         git add <file/diretory>
+
+        Podemos adiciona todos os arquivos do repositorio utilizando o 
+        git add . 
     }
 
     Armazenar Histórico com Commits: {
         Após adicionar arquivos à área de staging, o próximo passo é fazer um commit. O commit salva o estado dos arquivos na área de staging no histórico do Git. Cada commit é identificado por um código único, chamado hash, que é um código hexadecimal gerado a partir do conteúdo do commit. Esse hash é usado para referenciar e recuperar versões anteriores do repositório.
 
-        Comando para commit: git commit -m "Mensagem do commit"
+        Comando para commit: git commit -m "Mensagem do commit",a flag -m indica uma mensagem para deixamos no commiter,para indica o que foi feito com os arquivos adicionando na Staging
 
         O hash gerado permite identificar e acessar o estado exato dos arquivos no momento em que o commit foi feito. Para ver versões anteriores ou reverter a alterações, você pode usar o hash do commit.
-    }
-    Vizualizado mudanças em arquivos: {
-        para vizualizar mudanças em algum arquivo ou vários arquivos utilizamos o comando git diff
     }
 }
 
@@ -31,4 +31,28 @@ Verificando o status dos arquivos no repositorio: {
 
         Arquivos Não Rastreáveis: Arquivos que foram criados no repositório, mas ainda não foram adicionados à área de staging. Esses arquivos são mostrados como "untracked".
     }  
+}
+
+Olhando o histórico de commits {
+    Para olhamos o histórico de commits usamos o comando "git log" ele irá mostra os ultimos commits feito,data e a hora 
+
+    Principais Informações que o git log Exibe: {
+        Hash Commit: Cada commit tem um indetificador único chamado de hash (SHA-1),a hash do commit é um código hexadecimal.
+        Autor do Commit: O nome e o e-mail da pessoa que fez o commit.
+        Data do Commit: Quando o commit foi feito.
+        Mensagem do Commit: A mensagem descritiva fornecida durante o commit, que explica as mudanças feitas.
+    }
+}
+Verificando mudanças em arquivos {
+    Com o "git diff" podemos vizualizar mudanças em arquivos no nosso repositorio,todo texto que estive em verde e outro vermelho,o texto verde foi a mudança feita e o texto vermelho é aonde a mudança foi feita
+}
+
+
+alguns Erro Comum: {
+   Changes not staged for commit:
+  (utilize "git add <arquivo>..." para atualizar o que será submetido)
+  (use "git restore <file>..." to discard changes in working directory)
+  modified:   fundamentos/aula03/index.txt {
+    Essa mensagem indica que você tem um arquivo no seu repositório que foi modificado, mas as mudanças ainda não foram adicionadas à área de staging. Em outras palavras, o Git reconhece que houve alterações no arquivo, mas essas alterações não estão prontas para serem commitadas.
+    }
 }
