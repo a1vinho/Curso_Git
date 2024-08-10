@@ -1,0 +1,34 @@
+Processo de Trabalho do Git
+{
+    Estado Inicial de Arquivos {
+        Quando você cria um novo arquivo em um repositório inicializado com Git, o arquivo está em um estado chamado "irrastreável" ou "untracked". Isso significa que o Git ainda não está monitorando esse arquivo para mudanças.
+    }
+
+    Adicionar Arquivos ao Staging: {
+        Para que o Git comece a rastrear um arquivo e suas alterações, você usa o comando git add <file>. Esse comando move o arquivo para a área de staging, onde você pode preparar as mudanças antes de confirmá-las. A área de staging permite que você selecione quais mudanças serão incluídas no próximo commit.
+
+        Comando:
+        git add <file/diretory>
+    }
+
+    Armazenar Histórico com Commits: {
+        Após adicionar arquivos à área de staging, o próximo passo é fazer um commit. O commit salva o estado dos arquivos na área de staging no histórico do Git. Cada commit é identificado por um código único, chamado hash, que é um código hexadecimal gerado a partir do conteúdo do commit. Esse hash é usado para referenciar e recuperar versões anteriores do repositório.
+
+        Comando para commit: git commit -m "Mensagem do commit"
+
+        O hash gerado permite identificar e acessar o estado exato dos arquivos no momento em que o commit foi feito. Para ver versões anteriores ou reverter a alterações, você pode usar o hash do commit.
+    }
+    Vizualizado mudanças em arquivos: {
+        para vizualizar mudanças em algum arquivo ou vários arquivos utilizamos o comando git diff
+    }
+}
+
+Verificando o status dos arquivos no repositorio: {
+    Podemos verifica o status dos arquivos no repositorio,utilizando o comando git status,os principais tipos de status: {
+        Arquivos Modificados: Arquivos que foram alterados desde o último commit, mas que ainda não foram adicionados à área de staging (untracked or modified).
+
+        Arquivos na Área de Staging: Arquivos que foram adicionados à área de staging usando git add e estão prontos para o próximo commit.
+
+        Arquivos Não Rastreáveis: Arquivos que foram criados no repositório, mas ainda não foram adicionados à área de staging. Esses arquivos são mostrados como "untracked".
+    }  
+}

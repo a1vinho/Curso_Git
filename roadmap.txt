@@ -1,0 +1,92 @@
+Fase 1: Conceitos Básicos e Introdução
+Instalação do Git
+
+Baixe e instale o Git em seu sistema operacional.
+Configure seu nome de usuário e e-mail para identificar seus commits.
+Conceitos Fundamentais
+
+Entenda o que é Git e suas principais funcionalidades.
+Compreenda o conceito de repositório e a diferença entre repositórios locais e remotos.
+Diferencie Git de plataformas como GitHub, GitLab e Bitbucket.
+Comandos Básicos
+
+Aprenda a criar um novo repositório.
+Saiba como clonar um repositório existente.
+Entenda como adicionar arquivos ao controle de versão e como fazer commits.
+Verifique o status das alterações e explore o histórico de commits.
+
+Fase 2: Trabalhando com Branches
+Branches
+
+Compreenda o conceito de branch e sua importância no desenvolvimento de software.
+Aprenda a criar e trocar entre branches.
+Entenda como listar e gerenciar suas branches.
+Mesclagem de Branches
+
+Aprenda a mesclar uma branch em outra.
+Saiba como identificar e resolver conflitos de mesclagem.
+Deletar Branches
+
+Entenda como deletar branches locais e quando forçar a deleção.
+
+Fase 3: Repositórios Remotos e Colaboração
+Trabalhando com Repositórios Remotos
+
+Aprenda a adicionar um repositório remoto ao seu projeto.
+Verifique e gerencie seus repositórios remotos.
+Saiba como enviar alterações para o repositório remoto e como atualizar seu código com alterações feitas por outros.
+Trabalhando em Equipe
+
+Entenda o conceito de Pull Request e como ele facilita a colaboração e revisão de código.
+Saiba como contribuir para projetos open source, utilizando forks e Pull Requests.
+Diferencie as operações de fetch e pull, e compreenda o uso de rebase para manter um histórico de commits mais limpo.
+
+Fase 4: Controle de Histórico e Refinamento
+Manipulação de Commits
+
+Aprenda a alterar mensagens de commits já realizados.
+Entenda como unir múltiplos commits em um único (squash) para manter um histórico mais organizado.
+Revertendo Alterações
+
+Aprenda a reverter commits problemáticos.
+Entenda como resetar para um estado anterior do código, mantendo ou removendo mudanças posteriores.
+Stash
+
+Aprenda a guardar temporariamente mudanças não commitadas para poder trabalhar em outra coisa.
+Saiba como recuperar e aplicar essas mudanças guardadas posteriormente.
+
+Fase 5: Tópicos Avançados
+Tags
+
+Entenda o uso de tags para marcar pontos importantes na história do repositório, como versões de releases.
+Aprenda a criar, listar e compartilhar tags com o repositório remoto.
+Fluxos de Trabalho Avançados
+
+Explore metodologias avançadas de branching, como GitFlow.
+Aprenda a usar hooks para automatizar tarefas repetitivas no Git.
+Entenda como submódulos permitem incluir outros repositórios dentro do seu projeto.
+Git Internals
+
+Compreenda o funcionamento interno do Git, incluindo objetos, blobs e trees.
+Explore como visualizar o conteúdo interno do repositório e entender a estrutura do Git.
+
+Fase 6: Integração e Ferramentas
+Integração com Plataformas
+
+Aprenda a integrar Git com plataformas de CI/CD como GitHub Actions e GitLab CI.
+Configure hooks pre-commit e pre-push para garantir qualidade de código antes de enviar alterações.
+Ferramentas Gráficas e IDEs
+Explore interfaces gráficas para Git, como GitKraken e Sourcetree.
+Configure o Git em IDEs populares, como VSCode e IntelliJ IDEA.
+
+Fase 7: Práticas e Melhores Hábitos
+Boas Práticas
+
+Aprenda a escrever mensagens de commit claras e descritivas.
+Mantenha suas branches organizadas e evite acumular branches que não são mais necessárias.
+Use tags para marcar versões de releases e milestones importantes.
+Estudo Continuado
+
+Participe de projetos open source para ganhar experiência.
+Contribua com Pull Requests em repositórios de terceiros para aprender com a prática.
+Mantenha-se atualizado com as novas práticas e recursos do Git

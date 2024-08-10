@@ -1,0 +1,44 @@
+Qual a diferença entre Git e GitHub: {
+    Git : é um controle de versão responsável por lida com as versões de algum código ou software
+    GitHub: é um site que permite a hospedagem de repositorio versionado com git 
+}
+
+Configurado o git: {
+    Para iniciar um novo projeto com o git,utilizamos o comando ( git init ) dessa forma o git irá criar uma nova pasta .git, que contem todas as informações sobre o versionamento do nosso projeto 
+
+    comando git config {
+        Esse comando server para configura as preferencias do git,ele permite que altere ou defina configurações no controle de versão do git,tanto em um repositorio especifico,quanto para todos os respositorio do sistema ou usuario. Algumas flags desse comando: {
+            Sistema: configuração valida para todos os usuario do sistema
+            Global: configuração valida para o usuario configurado no git
+            Local: configuração valida para o repositorio atual
+        }
+        Como o git config funciona ? : {
+            O git config depedendo da sua flag,ele pode armazena as configurações em tres arquivos 
+            1 - Sistema: '/etc/gitconfig'
+            2 - Global: '~/.gitconfig ou ~/.config/git/config (dependendo do sistema)'
+            3 - Local: '.git/config (dentro do repositório Git)'
+        }
+        Principais Flags do Git: {
+            --system: Aplica a configuração em nível de sistema, afetando todos os usuários da máquina.
+            --global: Aplica a configuração em nível de usuário, afetando todos os repositórios do usuário atual.
+            --local: Aplica a configuração em nível de repositório, afetando apenas o repositório atual.
+
+            Exemplo: Configurar o nome de usuário globalmente: {
+                    Com essa configuração o nome de usuario estára em todos os commits
+                    git config --global user.name "Seu Nome"
+            }
+            Lista de configurações : {
+                --list: Exibe todas as configurações definidas, mostrando as que estão em todos os níveis (sistema, global, local).
+
+                Exemplo: Listar todas as configurações globalmente: {
+                    git config --global --list ira retorna todas as configurações do nivel global
+                }
+            }
+        }
+        Definindo o editor de código git: {
+            para definimos um edito de código para o git,utilizamos o seguinte comando 
+            git config --global core.editor "editor"
+        }
+        Essas são os principais niveis do git config
+    }
+}
