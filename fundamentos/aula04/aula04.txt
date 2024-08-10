@@ -17,7 +17,7 @@ comando git checkout: {
     Esse comando é uma ferramenta poderosa que nós permite navegar entre branches,olhar versões de arquivos em commits anteriores e até mesmo cria novas branchs
 
     Algumas funcionalidades: {
-        Troca de ramificação: Se quisermos traonca de branch utilizamos o comando 'git checkout <name>',isso muda nosso trabalho para a branch atual
+        Troca de ramificação: Se quisermos tronca de branch utilizamos o comando 'git checkout <name>',isso muda nosso trabalho para a branch atual
 
         Criar e muda ao mesmo tempo: o checkout também permite que nós criemos uma branch e mudemos para ela ao mesmo tempo com a flag '-b', 'git checkout -b <name> '
 
@@ -25,4 +25,8 @@ comando git checkout: {
             Arquivos: se quisermos olha a versão de um arquivo em um commit especificos,utilizamos o chegout da seguinte forma,'git checkout <commit-hash> -- <file>'
         }
     }
+}
+
+Mesclando branch: {
+    para mescla uma branch para a nossa branch principal primeiro devemos navegar até a nossa branch "git checkout master" e depois executa o seguinte comando "git merge <branch-name>",se essa mensagem aparecer "Merge made by the 'ort' strategy." então isso indica que foi um sucesso.
 }
