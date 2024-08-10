@@ -31,4 +31,23 @@ Verificando o status dos arquivos no repositorio: {
 
         Arquivos Não Rastreáveis: Arquivos que foram criados no repositório, mas ainda não foram adicionados à área de staging. Esses arquivos são mostrados como "untracked".
     }  
+<<<<<<< HEAD
 }
+=======
+}
+
+Olhando o histórico de commits {
+    Para olhamos o histórico de commits usamos o comando "git log" ele irá mostra os ultimos commits feito,data e a hora 
+
+    Principais Informações que o git log Exibe: {
+        Hash Commit: Cada commit tem um indetificador único chamado de hash (SHA-1),a hash do commit é um código hexadecimal.
+        Autor do Commit: O nome e o e-mail da pessoa que fez o commit.
+        Data do Commit: Quando o commit foi feito.
+        Mensagem do Commit: A mensagem descritiva fornecida durante o commit, que explica as mudanças feitas.
+    }
+}
+Verificando mudanças em arquivos {
+    Com o "git diff" podemos vizualizar mudanças em arquivos no nosso repositorio,todo texto que estive em verde e outro vermelho,o texto verde foi a mudança feita e o texto vermelho é aonde a mudança foi feita
+}
+
+>>>>>>> nova-feature
