@@ -21,6 +21,17 @@ Processo de Trabalho do Git
 
         O hash gerado permite identificar e acessar o estado exato dos arquivos no momento em que o commit foi feito. Para ver versões anteriores ou reverter a alterações, você pode usar o hash do commit.
     }
+    Podemos facilitar esse processo de commits (obs:os arquivos devem já está rastreado pelo git): {
+        Utilizando o comando 'git commit -am' 
+
+        flag -a: {
+            Esse é o atalho que server para adiciona todos os arquivos que foram modificados mas que já estão na area de staging,ou seja arquivos que foram commitados anteriomentes e estão sendo monitorado pelo git,com essa flag não precisamos utiliza o git add.Lembrando que essa flag so afeta arquivos que já estão sendo rastreado pelo git,ela não adiciona arquivos novos
+        }
+        flag -m: {
+            Essa flag permite que a gente insira uma mensagem diretamente na linha
+        }
+        Essa é uma flag que deve ser usada com cuidado,isso por que alguns arquivos rastreado talvez não façã parte do commit naquele momento
+    }
 }
 
 Verificando o status dos arquivos no repositorio: {
@@ -46,7 +57,6 @@ Olhando o histórico de commits {
 Verificando mudanças em arquivos {
     Com o "git diff" podemos vizualizar mudanças em arquivos no nosso repositorio,todo texto que estive em verde e outro vermelho,o texto verde foi a mudança feita e o texto vermelho é aonde a mudança foi feita
 }
-
 
 alguns Erro Comum: {
    Changes not staged for commit:
