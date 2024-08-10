@@ -1,0 +1,28 @@
+O que é branch no git ? {
+    Uma branch no git é uma ramificações ou seja uma divisão de partes no nosso repositorio,o git permite que dividamos nosso respositorio em partes sem afetar a parte principal que gerelamente é chamada de 'main',nessas ramificações podemos escrever e alterar os arquivos a vontade e isso não afetarar a ramificação principal.
+
+    Como funciona ? : {
+        Quando criamos uma ramificações ou branch,estamos essencialemente criando uma copia da nossa branch atual,que geralmente é main ou master,dai então podemos fazer mudanças nessa branch criada sem afetar a main ou a master.
+
+        Cada branch pode conter seu prṕrio historico de commiter,isso permite que diferentes pessoas ou times trabalher em varias funcionalides ou bugs sem afetar umas as outras
+    }
+    Como criar uma nova branch ? : {
+        Para criar uma nova branch é muito simples,podemos utiliza o comando "git checkout <name>",depois de criamos a nova branch todas as alterações feita no repositorio so serão adicionada a nova branch,se quisermos adiciona essas alterações feita a main,precisamos fazer uma mesclagem de branchs.
+
+        As ramificações são muito utilizadas para insolamento do nosso código,isso por que todas as alterações irão apenas afeta a nossa branch atual,facilitando a flexibilidade e também a colaboração 
+    }
+}
+
+comando git checkout: {
+    Esse comando é uma ferramenta poderosa que nós permite navegar entre branches,olhar versões de arquivos em commits anteriores e até mesmo cria novas branchs
+
+    Algumas funcionalidades: {
+        Troca de ramificação: Se quisermos traonca de branch utilizamos o comando 'git checkout <name>',isso muda nosso trabalho para a branch atual
+
+        Criar e muda ao mesmo tempo: o checkout também permite que nós criemos uma branch e mudemos para ela ao mesmo tempo com a flag '-b', 'git checkout -b <name> '
+
+        Revetendo arquivos e diretorios: {
+            Arquivos: se quisermos olha a versão de um arquivo em um commit especificos,utilizamos o chegout da seguinte forma,'git checkout <commit-hash> -- <file>'
+        }
+    }
+}
