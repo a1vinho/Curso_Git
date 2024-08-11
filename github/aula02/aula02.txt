@@ -24,4 +24,4 @@ Adicionando commits ao nosso repositorio no github: {
     Geralmente para o git push funciona precisamos primeiro configura o git remote,para que as alterações commitadas seja salvas corretamente no nosso repositorio que desejamos salva as alterações
 }
 
-Parei na parte 13:03 do bloco 2
+Parei na parte 13:03 do bloco 2a
