@@ -22,6 +22,20 @@ Adicionando commits ao nosso repositorio no github: {
         }
     }
     Geralmente para o git push funciona precisamos primeiro configura o git remote,para que as alterações commitadas seja salvas corretamente no nosso repositorio que desejamos salva as alterações
+
+    Caso apareça essa mensagem: {
+
+        fatal: The current branch master has no upstream branch.
+        To push the current branch and set the remote as upstream, use
+
+            "git push --set-upstream master master"
+
+        To have this happen automatically for branches without a tracking
+        upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+        Isso significa que a nosssa branch local,não está conseguindo rastrear a branch remota,rodando o comando acima estabelecemos uma conexão entre a nossa branch local e remota
+
+    }
 }
 
 Parei na parte 13:03 do bloco 2
