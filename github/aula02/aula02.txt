@@ -1,7 +1,27 @@
 Clonando um repositorio: {
-    Com o git podemos clonar um repositorio do github para a nossa máquina local,utilizando o comando git clone <url>,o git clone ele faz o download completo do repositorio incluindo commits,branchs e etc...Quando clonamos um repositorio,esse repositorio já vem inicializado ou seja não precisamos utiliza o comando git init
+    Com o git podemos clonar um repositorio do github para a nossa máquina local,utilizando o comando "git clone <url>" ,o git clone ele faz o download completo do repositorio incluindo commits,branchs e etc...Quando clonamos um repositorio,esse repositorio já vem inicializado ou seja não precisamos utiliza o comando git init
 }
 
 Adicionando commits ao nosso repositorio no github: {
-    Para adicionar commits ao nosso repositorio remoto,utilizamos o comando git push,ele server para "empurrar" alterações do nosso repositorio local para o repositorio remoto
+    Para adicionar commits ao nosso repositorio remoto,utilizamos o comando "git push",ele server para "empurrar" alterações do nosso repositorio local para o repositorio remoto,
+
+    git push <nome-do-repositorio> <nome-do-branch> 
+    Utilizamos esse comando o nome do repositorio salvo com o git remote
+
+    git remote: {
+        Esse comando server para controlar e manipular repositorio remotos conectados ao seu repositorio local,com ele podemos adicionar,remover,manipular ou desconectar o remoto com o local,
+
+        sintaxe: git remote [opção]
+
+        quatros comandos comuns do git remote: {
+            1 - Lista repositorio remotos associados ao nosso repositorio local: git remote
+            2 - Para obter informações mais detalhadas como as urls dos respositorio associados: git remote -v
+            3 - Adicionando um novo repositorio remoto: git remote add <nome> <url>,o <name> será como o repositorio remoto será associado na nossa maquina local
+            4 - Para renomear um repositorio: git remote rename <nome-antigo> <nome-novo>
+            5 - Remove um repositorio remoto: git remote remove <nome>
+        }
+    }
+    Geralmente para o git push funciona precisamos primeiro configura o git remote,para que as alterações commitadas seja salvas corretamente no nosso repositorio que desejamos salva as alterações
 }
+
+Parei na parte 13:03 do bloco 2

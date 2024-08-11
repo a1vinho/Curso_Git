@@ -1,0 +1,11 @@
+Explicação do que é o GitHub: {
+    O github é uma plataforma de repositorios de projetos onde podemos coloca nosso repositorio local,na plataforma do github,agora podemos acessa esse repositorio de qualquer lugar,sem precisa está com o nosso computador.
+
+    Para utiliza o github é muito simples basta nos cadastramos na plataforma,preenchedo um formulário bem simples.
+
+    Quando criamos um novo repositorio,um arquivo chamado Readme é criado,esse arquivo server como uma apresentação do nosso projeto,nele podemos especificar as tecnologias utilizadas no nosso projeto,podemos mostra fotos de como nosso projeto funciona e etc...
+
+    .gitignore: {
+        esse arquivo server para ignoramos arquivos ou diretorios,por exemplo digamos que eu vou subir meu repositorio para o github e não gostaria que a pasta node_modules fosse junto,então tudo que eu preciso fazer é coloca o nome da pasta ou arquivo dentro do ignore,lembrando que devemos coloca o path correto,para entender melhor olhe o arquivo no começo do diretorio
+    }
+}
